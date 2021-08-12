@@ -15,7 +15,8 @@ if utils.validate(player_hand):
     utils.print_hand(player_hand, player_name)
     utils.print_hand(computer_hand, 'Computer')
 
-    result = utils.judge(player_hand, computer_hand)
+    result = utils.judge(player_hand, computer_hand)  #they are not working in IDLE.
+    
     print('Result: ' + result)
 else:
     print('Please enter a valid number')
